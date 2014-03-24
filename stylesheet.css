@@ -1,0 +1,149 @@
+body {
+	background-color:#F1F1F1;
+}
+
+#banner {
+	height:210px;
+	width:700px;
+	margin:auto;
+}
+
+#bar {
+	height:60px;
+	width:100%;
+	background-color:#656565;
+	border:1px solid #D0D0D0;
+	margin-top:8px;
+	color:white;
+
+}
+
+#nav {
+	float:left;
+	height:650px;
+	width:20%;
+	border:1px solid #D0D0D0;
+	display:inline;
+	background-color:#F6F6F6;
+	box-sizing: border-box;
+	-moz-box-sizing:border-box;
+	font-family:Opreg;
+
+
+}
+
+#content {
+	float:left;
+	height:70em;
+	width:55%;
+	border:1px solid #D0D0D0;
+	display:inline-block;
+	
+	background-color:#FFFFFF;
+	box-sizing: border-box;
+	-moz-box-sizing:border-box;
+}
+
+#vidbox{
+	float:left;
+	width:25%;
+	height:350px;
+	border:1px solid #D0D0D0;
+	background-color:#F6F6F6;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	overflow:hidden;
+
+
+}
+
+#testimonials {
+	float:left;
+	width:25%;
+	height:500px;
+	border:1px solid #D0D0D0;
+	display:inline-block;
+	background-color:#F6F6F6;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	font-family:Opreg;
+	text-align:center;
+	font-size:20px;
+	overflow:hidden;
+	
+}
+
+.navbutton {
+	height:50px;
+	width:100%;	
+	margin-bottom:2%;
+	text-align:center;
+	padding-top:20px;
+	color:white;
+	background-color:#627CFF;
+	font-size:20px;
+	border:1px solid #869AFF;
+	font-family:Opreg;
+
+}
+
+.navbutton:hover {
+	background-color:#8599FF;
+	box-shadow: 5px 5px 5px #888888;
+}
+
+a:link {
+	text-decoration:none;
+}
+
+@font-face {
+    font-family: 'Opbold';
+    src: url('https://dl.dropboxusercontent.com/u/65101260/font/Opbold/Overpass_Bold-webfont.eot');
+    src: url('font/opbold/Overpass_Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://dl.dropboxusercontent.com/u/65101260/font/Opbold/Overpass_Bold-webfont.woff') format('woff'),
+         url('https://dl.dropboxusercontent.com/u/65101260/font/Opbold/Overpass_Bold-webfont.ttfttf') format('truetype'),
+         url('https://dl.dropboxusercontent.com/u/65101260/font/Opbold/Overpass_Bold-webfont.svgd') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Opreg';
+    src: url('fhttps://dl.dropboxusercontent.com/u/65101260/font/Opreg/Overpass_Regular-webfont.eot');
+    src: url('font/opreg/Overpass_Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://dl.dropboxusercontent.com/u/65101260/font/Opreg/Overpass_Regular-webfont.woff') format('woff'),
+         url('fhttps://dl.dropboxusercontent.com/u/65101260/font/Opreg/Overpass_Regular-webfont.ttf') format('truetype'),
+         url('https://dl.dropboxusercontent.com/u/65101260/font/Opreg/Overpass_Regular-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+ }
+
+ #welcome {
+	padding-left:10px;
+	height:30%;
+	font-family:Opreg;
+	background-color:#F6F6F6;
+	overflow:hidden;
+	padding-right:10px;
+}
+	
+#blubar {
+	width:90%;
+	height:25px;
+	background-color:#627CFF;
+	margin:auto;
+	margin-top:20px;
+
+	
+}
+
+#about{
+	padding-left:10px;
+	font-family:Opreg;
+	margin-top:5px;
+	background-color:#F6F6F6;
+	padding-right:10px;
+
+}
