@@ -1,149 +1,91 @@
 body {
-	background-color:#F1F1F1;
+	background-color:#99CCFF;
 }
 
-#banner {
-	height:210px;
-	width:700px;
+#hat {
+	height:150px;
+	width:100%;
+	border:1px solid #87ACD1;
+	background-color: #7AA3CC;
 	margin:auto;
 }
 
-#bar {
-	height:60px;
-	width:100%;
-	background-color:#656565;
-	border:1px solid #D0D0D0;
-	margin-top:8px;
-	color:white;
-
-}
-
-#nav {
-	float:left;
-	height:650px;
-	width:20%;
-	border:1px solid #D0D0D0;
+#sidebar {
+	height:50%;
+	width:300px;
+	border:1px solid #87ACD1;
+	background-color:#7A9BBC;
 	display:inline;
-	background-color:#F6F6F6;
-	box-sizing: border-box;
-	-moz-box-sizing:border-box;
-	font-family:Opreg;
-
+	position:absolute;
+	
+	
 
 }
 
 #content {
-	float:left;
-	height:70em;
-	width:55%;
-	border:1px solid #D0D0D0;
-	display:inline-block;
+	height:150%%;
+	width:83%;
+	border:1px solid #87ACD1;
+	background-color:#D7E1EB;
+	display:inline;
+	position:absolute;
+	margin-left:270px;
 	
-	background-color:#FFFFFF;
-	box-sizing: border-box;
-	-moz-box-sizing:border-box;
 }
 
-#vidbox{
-	float:left;
-	width:25%;
-	height:350px;
-	border:1px solid #D0D0D0;
-	background-color:#F6F6F6;
-	box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	overflow:hidden;
-
-
-}
-
-#testimonials {
-	float:left;
-	width:25%;
-	height:500px;
-	border:1px solid #D0D0D0;
-	display:inline-block;
-	background-color:#F6F6F6;
-	box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	font-family:Opreg;
+.hattitle {
 	text-align:center;
+	font-family:Verdana;
+}
+
+#pcentered {
+	margin-left:15px;
+	margin-right:15px;
+}
+
+.lihead {
 	font-size:20px;
-	overflow:hidden;
-	
+	font-family:Verdana;
+	font-weight:bold;
+
+}
+
+#hatimage{
+	display:inline;
+	float:right;
+	margin-bottom:50px;
+	position:absolute;
+}
+
+td {
+	border:1px solid #A3CCCC;
+	background-color:#CCFFFF;
+	color:#82A3A3;
+	border-radius:5px;
+}
+
+.listitem {
+	font-style:italic;
+	font-family:Georgia;
 }
 
 .navbutton {
+	margin-top:15px;
+	margin-left:9px;
 	height:50px;
-	width:100%;	
-	margin-bottom:2%;
+	width:250px;
+	border:1px solid #BFCFDF;
+	border-radius:3px;
+	position:relative;
+	display:inline-block;
 	text-align:center;
-	padding-top:20px;
-	color:white;
-	background-color:#627CFF;
-	font-size:20px;
-	border:1px solid #869AFF;
-	font-family:Opreg;
+	background-color:#95AFC9;
+	font-family:Verdana;
+	font-weight:bold;
+	
 
 }
 
-.navbutton:hover {
-	background-color:#8599FF;
-	box-shadow: 5px 5px 5px #888888;
-}
-
-a:link {
+a {
 	text-decoration:none;
-}
-
-@font-face {
-    font-family: 'Opbold';
-    src: url('https://dl.dropboxusercontent.com/u/65101260/font/Opbold/Overpass_Bold-webfont.eot');
-    src: url('font/opbold/Overpass_Bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('https://dl.dropboxusercontent.com/u/65101260/font/Opbold/Overpass_Bold-webfont.woff') format('woff'),
-         url('https://dl.dropboxusercontent.com/u/65101260/font/Opbold/Overpass_Bold-webfont.ttfttf') format('truetype'),
-         url('https://dl.dropboxusercontent.com/u/65101260/font/Opbold/Overpass_Bold-webfont.svgd') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'Opreg';
-    src: url('fhttps://dl.dropboxusercontent.com/u/65101260/font/Opreg/Overpass_Regular-webfont.eot');
-    src: url('font/opreg/Overpass_Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('https://dl.dropboxusercontent.com/u/65101260/font/Opreg/Overpass_Regular-webfont.woff') format('woff'),
-         url('fhttps://dl.dropboxusercontent.com/u/65101260/font/Opreg/Overpass_Regular-webfont.ttf') format('truetype'),
-         url('https://dl.dropboxusercontent.com/u/65101260/font/Opreg/Overpass_Regular-webfont.svg') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
- }
-
- #welcome {
-	padding-left:10px;
-	height:30%;
-	font-family:Opreg;
-	background-color:#F6F6F6;
-	overflow:hidden;
-	padding-right:10px;
-}
-	
-#blubar {
-	width:90%;
-	height:25px;
-	background-color:#627CFF;
-	margin:auto;
-	margin-top:20px;
-
-	
-}
-
-#about{
-	padding-left:10px;
-	font-family:Opreg;
-	margin-top:5px;
-	background-color:#F6F6F6;
-	padding-right:10px;
-
 }
